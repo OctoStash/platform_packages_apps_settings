@@ -399,4 +399,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
 
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
 </resources>

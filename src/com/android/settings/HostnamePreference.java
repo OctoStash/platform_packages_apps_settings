@@ -70,7 +70,7 @@ public class HostnamePreference extends EditTextPreference {
                     hostname = DEFAULT_HOSTNAME;
                 } else {
                     // if no other name can be determined
-                   // fall back on the current hostname
+                    // fall back on the current hostname
                     hostname = getText();
                 }
             }
@@ -108,4 +108,8 @@ public class HostnamePreference extends EditTextPreference {
         Settings.Secure.putString(getContext().getContentResolver(),
                 Settings.Secure.DEVICE_HOSTNAME, hostname);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d175527... Add an option to change the device hostname (2/2).

@@ -33,4 +33,13 @@
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">OctOS build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
+	
+    <!-- Volume adjust sounds -->
+    <string name="volume_adjust_sounds_enable_title">Volume adjust sound</string>
+    <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
+
+    <!-- Link volumes -->
+    <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
+    <string name="volume_ring_only_description">Ringtone</string>
+
 </resources>

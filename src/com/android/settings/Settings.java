@@ -573,6 +573,14 @@ public class Settings extends PreferenceActivity
                 if (!mBatteryPresent) {
                     target.remove(i);
                 }
+            } else if (id == R.id.display_settings) {
+                final Resources res = getResources();
+                boolean hasLed =
+                        res.getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)
+                        || res.getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed);
+                if (hasLed) {
+                    header.titleRes = R.string.display_lights_settings_title;
+                }
             } else if (id == R.id.account_settings) {
                 int headerIndex = i + 1;
                 i = insertAccountsHeaders(target, headerIndex);

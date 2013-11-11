@@ -510,6 +510,8 @@ public class Settings extends PreferenceActivity
                 WifiP2pSettings.class.getName().equals(fragmentName) ||
                 BluetoothSettings.class.getName().equals(fragmentName) ||
                 DreamSettings.class.getName().equals(fragmentName) ||
+                AppGroupConfig.class.getName().equals(fragmentName) ||
+                HomeSettings.class.getName().equals(fragmentName) ||
                 LocationSettings.class.getName().equals(fragmentName) ||
                 ToggleAccessibilityServicePreferenceFragment.class.getName().equals(fragmentName) ||
                 PrintSettingsFragment.class.getName().equals(fragmentName) ||
@@ -1030,9 +1032,7 @@ public class Settings extends PreferenceActivity
             titleRes = R.string.wallpaper_settings_fragment_title;
         } else if (pref.getFragment().equals(OwnerInfoSettings.class.getName())
                 && UserHandle.myUserId() != UserHandle.USER_OWNER) {
-            if (UserManager.get(this).isLinkedUser()) {
-                titleRes = R.string.profile_info_settings_title;
-            } else {
+            if {
                 titleRes = R.string.user_info_settings_title;
             }
         }

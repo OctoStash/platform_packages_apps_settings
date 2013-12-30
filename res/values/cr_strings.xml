@@ -446,6 +446,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_prefs_title">Options</string>
     <string name="battery_stats_title">Statistics</string>
 
+    <!-- USB Mass Storage -->
+    <string name="usb_mass_storage_title">Mass storage (UMS)</string>
+    <string name="usb_mass_storage_summary">Lets you transfer any files between your computer and your SD card by mounting it as a flash device</string>
+    <string name="storage_rescan_media">Rescan media for the storage volume</string>
+    <string name="storage_rescan_media_complete">Scan completed</string>
+
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
     <string name="media_scanner_on_boot_enabled">Scan media</string>

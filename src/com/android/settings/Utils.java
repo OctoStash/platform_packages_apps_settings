@@ -697,7 +697,6 @@ public class Utils {
         return getScreenType(context) == DEVICE_TABLET;
     }
 
-<<<<<<< HEAD
     /**
      * Locks the activity orientation to the current device orientation
      * @param activity
@@ -730,10 +729,10 @@ public class Utils {
         }
         activity.setRequestedOrientation(frozenRotation);
 	}
-=======
+
     /* returns whether the device has volume rocker or not. */
     public static boolean hasVolumeRocker(Context context) {
         return context.getResources().getBoolean(R.bool.has_volume_rocker);
     }
->>>>>>> 05a47ae... Fix derps.
+
 }

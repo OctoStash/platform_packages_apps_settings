@@ -17,4 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Oct Settings -->
     <string name="oct_settings_title">Oct settings</string>
+    
+    <string name="oct_ota_title">OctOTA</string>
+    <string name="oct_ota_summary">Check for the latest OctOS ROM updates</string>
 </resources>

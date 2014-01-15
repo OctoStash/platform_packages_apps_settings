@@ -1075,6 +1075,7 @@ public class Settings extends PreferenceActivity
     public static class SpellCheckersSettingsActivity extends Settings { /* empty */ }
     public static class LocalePickerActivity extends Settings { /* empty */ }
     public static class UserDictionarySettingsActivity extends Settings { /* empty */ }
+    public static class OctSettingsActivity extends Settings { /* empty */ }
     public static class SoundSettingsActivity extends Settings { /* empty */ }
     public static class DisplaySettingsActivity extends Settings { /* empty */ }
     public static class DeviceInfoSettingsActivity extends Settings { /* empty */ }

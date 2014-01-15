@@ -1148,6 +1148,10 @@
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/development_settings" />
         </activity>
+        
+        <!-- Oct Settings Start -->
+        <activity android:name=".tentacles.OctSettings" />
+        <!-- Oct Settings End -->
 
         <activity android:name="Settings$PrintSettingsActivity"
                 android:label="@string/print_settings"

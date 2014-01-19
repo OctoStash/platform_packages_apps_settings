@@ -16,12 +16,6 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/development_settings_title">
-    <!-- Oct settings -->
-    <PreferenceScreen
-        android:id="@+id/oct_settings"
-        android:fragment="org.oct.tentacles.OctSettings"
-        android:icon="@drawable/ic_settings_oct"
-        android:title="@string/oct_settings_title"/>
         
     <com.android.settings.BugreportPreference
             android:key="bugreport"

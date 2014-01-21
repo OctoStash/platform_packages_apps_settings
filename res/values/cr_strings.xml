@@ -447,6 +447,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Double-tap to wake</string>
+
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">The APN will be deleted.</string>
 

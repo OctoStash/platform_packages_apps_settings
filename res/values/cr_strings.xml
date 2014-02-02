@@ -289,8 +289,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <string name="advanced_reboot_summary">Show entries for rebooting into recovery or bootloader</string>
 
-    <string name="app_security_title">App security</string>
-
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
     <string name="root_access_warning_title">Allow root access?</string>
@@ -337,6 +335,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
+
+    <string name="app_security_title">App security</string>
+    <string name="security_unlock_category">Unlock</string>
 
     <!-- CARBON Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
@@ -528,5 +529,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+
+    <string name="unlock_menu_unlock_title">Menu unlock</string>
+    <string name="unlock_menu_unlock_summary">Pressing the menu button unlocks the device</string>
+    <string name="unlock_home_unlock_title">Home unlock</string>
+    <string name="unlock_home_unlock_summary">Pressing the home button unlocks the device</string>
 
 </resources>

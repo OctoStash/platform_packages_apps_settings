@@ -104,37 +104,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-		
-        <!-- QuietHours SmsCall Service -->
-
-        <service android:name=".tentacles.service.SmsCallService"/>
-        <service android:name=".tentacles.service.AlarmService"/>
-
-        <receiver
-            android:name=".tentacles.service.AlarmReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.TIMEZONE_CHANGED"></action>
-                <action android:name="android.intent.action.TIME_CHANGED"></action>
-                <action android:name="android.intent.action.DATE_CHANGED"></action>
-                <action android:name="org.oct.tentacles.service.SCHEDULE_SERVICE_COMMAND"/>
-            </intent-filter>
-        </receiver>
-
-        <receiver
-            android:name=".tentacles.service.BootReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
-        </receiver>
-
-        <activity
-            android:name=".tentacles.service.BypassAlarm"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:excludeFromRecents="true"
-            android:launchMode="singleInstance"
-            android:screenOrientation="portrait"
-            android:taskAffinity="org.oct.tentacles.service.BypassAlarm"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
         <!-- Wireless Controls -->
 
@@ -1184,6 +1153,11 @@
         
         <!-- Oct Settings Start -->
         <activity android:name=".tentacles.OctSettings" />
+        <activity android:name=".tentacles.service.AlarmReceiver" /> 
+        <activity android:name=".tentacles.service.AlarmService" />
+        <activity android:name=".tentacles.service.BypassAlarm" />
+        <activity android:name=".tentacles.quiethours.QuietHours" />
+        <activity android:name=".tentacles.service.SmsCallService" />       
         <!-- Oct Settings End -->
 
         <activity android:name="Settings$PrintSettingsActivity"
@@ -1610,24 +1584,6 @@
             android:launchMode="singleTop"
             android:theme="@style/CryptKeeperBlankTheme"
         />
-		
-        <!-- Pseudo-activity used to provide an intent-filter entry point to quite hours settings -->
-        <activity android:name="Settings$QuietHoursSettingsActivity"
-                android:label="@string/quiet_hours_title"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="org.oct.tentacles.quiethours.QuietHours" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/sound_settings" />
-            <meta-data android:name="com.android.settings.PARENT_FRAGMENT_CLASS"
-                android:value="com.android.settings.Settings$SoundSettingsActivity" />
-        </activity>
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"

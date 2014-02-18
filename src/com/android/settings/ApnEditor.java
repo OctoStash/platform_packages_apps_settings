@@ -236,13 +236,7 @@ public class ApnEditor extends PreferenceActivity
         mTelephonyManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 
         fillUi(intent.getStringExtra(ApnSettings.OPERATOR_NUMERIC_EXTRA));
-
-<<<<<<< HEAD
-        fillUi();
-=======
-        fillUi(icicle.getString(ApnSettings.OPERATOR_NUMERIC_EXTRA));
         setHasOptionsMenu(true);
->>>>>>> f1f216b... Telephony: Use new apn.sim.operator_numeric property
     }
 
     @Override

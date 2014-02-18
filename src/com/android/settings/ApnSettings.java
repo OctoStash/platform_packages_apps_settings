@@ -129,7 +129,6 @@ public class ApnSettings extends PreferenceActivity implements
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.apn_settings);
-        getListView().setItemsCanFocus(true);
         mSubscription = getActivity().getIntent().getIntExtra(SelectSubscription.SUBSCRIPTION_KEY,
                 MSimTelephonyManager.getDefault().getDefaultSubscription());
         Log.d(TAG, "onCreate received sub :" + mSubscription);

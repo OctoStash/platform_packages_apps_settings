@@ -120,7 +120,7 @@ public class ApnSettings extends PreferenceActivity implements
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.apn_settings);
-        getListView().setItemsCanFocus(true);
+
 
         mMobileStateFilter = new IntentFilter(
                 TelephonyIntents.ACTION_ANY_DATA_CONNECTION_STATE_CHANGED);

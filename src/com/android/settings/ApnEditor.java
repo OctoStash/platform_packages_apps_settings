@@ -227,6 +227,8 @@ public class ApnEditor extends PreferenceActivity
 
         mTelephonyManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 
+        fillUi(intent.getStringExtra(ApnSettings.OPERATOR_NUMERIC_EXTRA));
+
         fillUi();
     }
 

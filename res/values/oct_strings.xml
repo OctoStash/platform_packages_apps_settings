@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2014 Team OctOS
-    Warning: Tentacles may strangle!
+     Warning: Tentacles may strangle!
+	 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -46,6 +47,8 @@
   
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">OctOS build date</string>
-    <string name="build_date_default">2012-01-01-0000</string>
-    
+    <string name="build_date_default">2012-01-01-0000</string>    
+
+    <!-- Oct Settings -->
+    <string name="oct_tentacles_title">Oct settings</string>
 </resources>

@@ -24,5 +24,8 @@
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">OctOS build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
-    
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
 </resources>

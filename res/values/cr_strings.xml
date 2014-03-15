@@ -155,14 +155,6 @@
     <string name="link_volume_mutes">Silent mode affects notifications</string>
     <string name="volume_keys_control_ring_stream">Volume keys control ringtone volume</string>
 
-<<<<<<< HEAD
-=======
-    <!-- Ring mode -->
-    <string name="ring_mode_title">Ring mode</string>
-    <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibrate</string>
-    <string name="ring_mode_mute">Mute</string>
-    
     <!-- Volume Steps -->
     <string name="volume_steps_60">60</string>
     <string name="volume_steps_45">45</string>
@@ -193,7 +185,6 @@
     <string name="volume_adjust_sounds_enable_title">Volume adjustment sound</string>
     <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with volume rocker</string>
 
->>>>>>> 20ee810... Live Volume Steps [2/2]
     <!-- Lights settings screen, notification light settings -->
     <string name="display_lights_settings_title">Display &amp; lights</string>
     <string name="lights_category_title">Lights</string>

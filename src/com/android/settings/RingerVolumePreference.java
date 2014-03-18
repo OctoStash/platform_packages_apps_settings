@@ -267,19 +267,6 @@ public class RingerVolumePreference extends VolumePreference {
                     view.findViewById(SEEKBAR_SECTION_ID[i]).setVisibility(View.GONE);
                 }
             }
-        } else {
-            // Disable ringer or notifications if required
-            int id = -1;
-            if (!Utils.isVoiceCapable(getContext())) {
-                id = R.id.ringer_section;
-            } else if (System.getInt(getContext().getContentResolver(),
-                    System.VOLUME_LINK_NOTIFICATION, 1) == 1) {
-                id = R.id.notification_section;
-            }
-            if (id != -1){
-                View hideSection = view.findViewById(id);
-                hideSection.setVisibility(View.GONE);
-            }
         }
     }
 

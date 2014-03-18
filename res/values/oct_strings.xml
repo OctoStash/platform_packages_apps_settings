@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2014 Team OctOS
-    Warning: Tentacles may strangle!
+     
+     Warning: Tentacles may strangle!
+
+     Copyright (C) 2007 The Android Open Source Project
+
 
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,6 +29,8 @@
     <string name="default_string">Default</string>
     <string name="enabled_string">Enabled</string>
     <string name="disabled_string">Disabled</string>	
+    <string name="oct_tentacles_title">Tentacles</string>
+
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Warning</string>
@@ -45,5 +51,4 @@
 
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
-
 </resources>
